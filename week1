@@ -1,0 +1,47 @@
+UNIX USER COMMANDS------
+
+whoami – show your username
+
+id – print user identity
+
+groups – show which groups user belongs to
+
+passwd – change user password
+
+who – find out who is logged into the system
+
+last – show history of logins into the system Unix file operations
+
+Navigating filesystem and managing files and access permissions:
+nslookup google.com – server address
+
+cp – copy files (work in progress)
+
+rm – remove files and directories (work in progress)
+
+mv – rename or move files and directories to another location
+
+echo – “hello world”
+
+chown – change file/directory ownership
+---------------------------------------------------------------------------------------
+
+
+Navigating filesystems and managing directories:
+
+•cd – change directory
+•pwd – confirm current directory
+•mkdir – make new directory
+•rmdir – remove directories in Unix
+---------------------------------------------------------------------------------------------
+Control Commands:
+These commands are a two-key combination where a letter is pressed simultaneously with
+the ‘Ctrl’ key.
+•Control-C: This command terminates the currently running foreground process.
+
+•Control-D: This command terminates the currently running login or terminal
+
+•Control-Z: This command suspends the currently running foreground process to the background.
+---------------------------------------------------------------------------------------------
+
+
