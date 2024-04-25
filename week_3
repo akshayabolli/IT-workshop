@@ -3,7 +3,7 @@ Example 1;
 
 \documentclass{article}
 \title{My first laTeX Document}
-\authorakshaya}
+\author{akshaya}
 \date{\today}
 \begin{document}
 \maketitle
