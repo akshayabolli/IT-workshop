@@ -10,7 +10,7 @@
 		\label{fig:example}
 	\end{figure}
 \end{document}
------------------------------------------------------------------------------------------------------------------------------------------
+
 %Example:sub-image%
 \documentclass{article}
 \usepackage{graphicx}
@@ -34,7 +34,8 @@
 \caption{side-by-side images}
 \end{figure}
 \end{document}
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 %Example:Table%
 \documentclass{article}
 \begin{document}
@@ -55,7 +56,7 @@
 		\label{fig:tab}
 	\end{table}
 \end{document}
---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 %Example:Table-colour%
 \documentclass{article}
 \usepackage[table]{xcolor}
@@ -72,7 +73,7 @@
 		\label{fig:tab}
 	\end{table}
 \end{document}
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 %EXAMPLE: Matrix%
 \documentclass{article}
 \usepackage{amsmath} % Required for matrix environment
