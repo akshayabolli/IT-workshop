@@ -15,7 +15,7 @@ Renu Desai
 
 
 $ sort names.txt > sortednames.txt
- //command used to sort names and we have to give a  new file name to store the output in it(sortednames.txt is used to store names after sorting).. 
+ //command used to sort names and we have to give a  new file name to store the output in it(here,sortednames.txt is used to store names after sorting).. 
 
 $ sort sortednames.txt     
 //display the output..!!
