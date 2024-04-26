@@ -10,3 +10,79 @@
 		\label{fig:example}
 	\end{figure}
 \end{document}
+
+%Example:sub-image%
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\begin{document}
+	\begin{figure}[htbp]
+	
+	\begin{subfigure}[b]{0.4\textwidth}
+			\centering
+			\includegraphics[width=\linewidth]{maharaj}
+			\caption{image1}
+			\label{fig:image1}
+	\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.4\textwidth}
+	\centering
+	\includegraphics[width=\linewidth]{shivajimaharaj}
+\caption{image2}
+\label{fig:image2}
+\end{subfigure}
+\caption{side-by-side images}
+\end{figure}
+\end{document}
+
+%Example:Table%
+\documentclass{article}
+\begin{document}
+	\begin{table}
+		\centering
+		\begin{tabular}{|c|c|c|}
+			\hline 
+			column1 & column2 & column3\\
+			\hline
+			row1,cel1 & row1,cel2 & row1,cel3\\
+			
+			row2,cel1 & row2,cel2 & row2,cel3\\
+			
+			row3,cel 1 & row3,cel2 & row3,cel3\\
+			\hline
+			\end{tabular}
+		\caption{sample table}
+		\label{fig:tab}
+	\end{table}
+\end{document}
+
+%Example:Table-colour%
+\documentclass{article}
+\usepackage[table]{xcolor}
+\begin{document}
+	\begin{table}
+		\centering
+		\begin{tabular}{|c|c|}
+		\cellcolor{green}ZEHAR SEHGAL & \cellcolor{blue}ARJUN DESHMUKH\\
+		
+			\cellcolor{orange}INDER LAL& \cellcolor{magenta}PRIYANKA GAIKWAD\\
+		
+			\end{tabular}
+		\caption{sample table}
+		\label{fig:tab}
+	\end{table}
+\end{document}
+
+%EXAMPLE: Matrix%
+\documentclass{article}
+\usepackage{amsmath} % Required for matrix environment
+\begin{document}
+	A matrix example:
+	\[
+	\begin{bmatrix}
+	5 & 4 & 3 \\
+	4 & 9 & 6 \\
+	1 & 8 & 2 \\
+	\end{bmatrix}
+	\]
+\end{document}
