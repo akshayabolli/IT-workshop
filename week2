@@ -2,7 +2,7 @@
 $ touch names.txt //to create file in terminal
 $ nano names.txt // to get texteditor direct in the terminal and we can type names in editor and save the file.
 
-$ cat names.txt    // displays the content in the file
+$ cat names.txt    // displays the content in the file..
 Inderlal Parihaar
 Zehar Sehgal
 Arjun Deshmukh
@@ -15,10 +15,10 @@ Renu Desai
 
 
 $ sort names.txt > sortednames.txt
- //command used to sort names and we have to give a  new file name to store the output in it.
+ //command used to sort names and we have to give a  new file name to store the output in it(sortednames.txt is used to store names after sorting).. 
 
 $ sort sortednames.txt     
-//display the output!!
+//display the output..!!
 
 Aditya Kashyap    //names in sorted order
 Arjith Singh
