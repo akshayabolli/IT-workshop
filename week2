@@ -1,1 +1,28 @@
 
+$ touch names.txt
+$ nano names.txt
+
+$ cat names.txt
+Inderlal Parihaar
+Zehar Sehgal
+Arjun Deshmukh
+Aditya Kashyap
+Shanaya Kapoor
+Munnawar Farooqi
+Sandeep Maheshwari
+Arjith Singh
+Renu Desai
+
+
+$ sort names.txt > sortednames.txt
+$ sort sortednames.txt
+
+Aditya Kashyap
+Arjith Singh
+Arjun Deshmukh
+Inderlal Parihaar
+Munnawar Farooqi
+Renu Desai
+Sandeep Maheshwari
+Shanaya Kapoor
+Zehar Sehgal
